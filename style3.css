@@ -1,0 +1,22 @@
+/* body{
+    background-image: url('./download\ \(1\).JPEG');
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    margin:0px;
+
+} */
+.div-one{
+    background-color: blueviolet;
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    margin-left:  300px;
+    margin-top: 50PX;
+    /* padding: 100px; */
+    padding-top: 20px;
+}
+#head{
+    border:ridge blue;
+    margin-right: 100px;
+    padding: 30px;
+}

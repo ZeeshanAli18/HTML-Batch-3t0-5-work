@@ -1,0 +1,19 @@
+.head-one{
+    background-color: aqua;
+}
+#para-one{
+    background-color: blue;
+}
+.sec-class{
+    border: 2px solid red;
+    color: blueviolet;
+    text-align: center;
+}
+#sec-id{
+    color: aqua;
+    border: 1px solid blue;
+}
+#one{
+    background-color: crimson;
+}
+

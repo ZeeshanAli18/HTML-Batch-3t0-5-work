@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        
+        .container{
+            width:200px;
+            height:100px;
+            background-color: lightblue;
+            border: 2px double blue;
+         
+        }
+        .one{
+            display: none;
+        }
+        @media screen and (max-width:500px){
+            .one{
+                background-color: blue;
+                display:block;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            .container{
+                background-color: red;
+                color:white;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 50px;
+                width: 300px;
+                height: 200px;
+            }
+        }
+
+    
+        
+        @media  screen and (max-width:800px) {
+            .container{
+                background-color:yellowgreen;
+                font-size: 60px;
+                width: 400px;
+                height: 200px;
+
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="one">Div-one</div>
+    <div class="two">Div-Two</div>
+    <div class="three">Div-three</div>
+    <div class="four">div-four</div>
+</div>
+</body>
+</html>

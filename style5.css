@@ -1,0 +1,51 @@
+.div-one{
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    margin: 30px;
+    background-image: repeating-linear-gradient(270deg, red 25%, yellow 30%,green,blue 20%);
+    
+}
+.div-two{
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    margin: 30px;
+    background-image: linear-gradient(red 25%, yellow 30%,green,blue 20%);
+    
+}
+.div-three{
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    margin: 30px;
+    background-image:repeating-radial-gradient(blue,yellow);
+    padding: 30px;
+    
+}
+.div-four{
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    margin: 30px;
+    background-image:url('./download\ \(1\).JPEG');
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: scroll;
+    background-position: 100px;
+    background-attachment: fixed;
+    
+}
+body{
+    background-image: url("./download\ \(1\).JPEG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.img-one{
+position:relative;
+left:800px;
+
+bottom: 300px;
+}

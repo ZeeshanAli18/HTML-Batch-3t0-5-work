@@ -1,0 +1,33 @@
+#para-one{
+    background-color: aqua;
+    color: blue;
+}
+#para-one:hover{
+    background-color: brown;
+    color: blueviolet;
+    font-size: large;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:hover{
+    background-color: darkblue;
+    text-decoration: none;
+    padding: 30PX;
+    margin: 40PX;
+}
+ol{
+    list-style-type:none;
+    margin: 30px;
+    border: 2px solid blue;
+    padding: 50px;
+    text-align: center;
+    word-spacing: 100px;
+  
+}
+li{
+ /* list-style-image: url('./download.png');
+ list-style-position: inside; */
+ display: inline;
+ 
+ 
+}

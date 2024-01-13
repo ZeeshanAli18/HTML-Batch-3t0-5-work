@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="Addition(1,2)">Click Me</button>
+   <button ondblclick="Addition(4,6)">Double Click</button>
+   <button onmousedown="Addition(2,1)">Mouse Down</button>
+   <button onmouseover="Addition(4,1)">Mouse Over</button>
+   <button onmouseleave="Addition(7,3)">Mouse Leave</button>
+   <button onkeydown="Addition(4,3)">Key Down</button>
+   <button onkeypress="Addition(2,1)">Key press</button>
+   <button onkeyup="Addition(7,9)">Key UP</button>
+
+    <script>
+        // Defining a funciton
+        //Non-parameterized Functions
+        function js_function(){
+            document.write("Learning Functions in JS <br>");
+        }
+        //Calling a funciton
+        // js_function();
+        // js_function();
+
+        //Parameterized Functions
+        function Addition(a,b,result){
+            result=a+b;
+            document.write("Addition of Two NUMBERS "+result+"<BR>");
+            
+        }
+        // Addition(3,5);
+        // Addition(2,3);
+        // Addition(1,2);
+    </script>
+    
+</body>
+</html>

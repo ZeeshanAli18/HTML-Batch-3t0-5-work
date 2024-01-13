@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box in CSS</title>
+    <style>
+        .container{
+            height: 200px;
+            width: 300px;
+            border: 2px solid blue;
+            background-color:wheat;
+            display: flex;
+            margin: 50px;
+            flex-direction:row;
+            justify-content:center;
+            align-items:first baseline;
+            align-self: center;
+            align-content: center;
+            flex-wrap:wrap-reverse;
+            flex-flow:wrap;
+                 
+          
+        }
+        .flex{
+            width: 50px;
+            border: 2px solid red;
+            height: 30px;
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+        }
+        .flex-one{background-color: blue;}
+        .flex-two{background-color:green;}
+        .flex-three{background-color:brown}
+        .flex-four{background-color:darkgoldenrod;}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flex flex-one">1</div>
+        <div class="flex flex-two">2</div>
+        <div class="flex flex-three">3</div>
+        <div class="flex flex-four">4</div>
+        <div class="flex flex-one">5</div>
+        <div class="flex flex-two">6</div>
+        <div class="flex flex-three">7</div>
+        <div class="flex flex-four">8</div>
+    </div>
+</body>
+</html>

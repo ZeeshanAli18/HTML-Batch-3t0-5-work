@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+        height: 200px;
+        width:200px;
+        border: 2px solid rgb(117, 12, 12);
+        transition: height 1s;
+        transition-delay: 1s;
+        background-color: red;
+        float:left;
+        margin:10px;
+        }
+        div:hover{
+            height: 600px;
+            background-color: blue;
+        }
+        .div-one{transition-timing-function: ease;}
+        .div-two{transition-timing-function: linear;}
+        .div-three{transition-timing-function: ease-in;}
+        .div-four{transition-timing-function: ease-out;}
+    </style>
+ </head>
+ <body>
+    <div class="div-one">
+    </div>
+    <div class="div-two">
+    </div>
+
+    <div class="div-three">
+    </div>
+    <div class="div-four">
+    </div>
+    
+ </body>
+ </html>
